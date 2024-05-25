@@ -40,7 +40,7 @@ class _ChatScreenState extends State<ChatScreen> {
     _userInput.clear();
   }
 
-  static const apiKey = "AIzaSyAZJe1-YyQO2CDYU5kt3eC8_XmBwkk9gyc";
+  static const apiKey = "<Enter google Api";
 
   final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
 
